@@ -3,13 +3,15 @@ import { createElement } from "react";
 import "./ui/LinkContainer.css";
 
 export function LinkContainer({ url, content, target }) {
-    const handleClick = e => {
+    function handleClick(e) {
         e.stopPropagation();
-    };
+    }
 
     return (
-        <a className="link-container" href={url.value} target={target} onClick={handleClick}>
-            <div className="link-container-content">{content}</div>
-        </a>
+        <div onClick={handleClick}>
+            <a className="link-container" href={url.value} target={target}>
+                <div className="link-container-content">{content}</div>
+            </a>
+        </div>
     );
 }
