@@ -8,7 +8,7 @@ export function LinkContainer({ url, content, target }) {
     };
 
     return (
-        <a className="link-container" href={url.value} target={target} onclick={handleClick}>
+        <a className="link-container" href={url.value} target={target} onClick={handleClick}>
             <div className="link-container-content">{content}</div>
         </a>
     );
