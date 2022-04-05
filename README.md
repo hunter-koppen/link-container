@@ -1,5 +1,5 @@
 ## LinkContainer
-Create a container as an anchor ('<a>) element including a link. This will allow you to for example allow links to be opened with ctrl+click or middlemousebutton.
+Create a container as an anchor (\<a>) element including a link. This will allow you to for example allow links to be opened with ctrl+click or middlemousebutton.
 
 ## Features
 - Render your Mendix content inside a link container.
