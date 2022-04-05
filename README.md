@@ -1,24 +1,15 @@
 ## LinkContainer
-[My widget description]
+Create a container as an anchor (<a>) element including a link. This will allow you to for example allow links to be opened with ctrl+click or middlemousebutton.
 
 ## Features
-[feature highlights]
+- Render your Mendix content inside a link container.
 
 ## Usage
-[step by step instructions]
+Simply add the widget to the page and setup the url you wish to allow on click. Next you can add any content your want inside the container.
 
-## Demo project
-[link to sandbox]
+If you add text inside the container this text will automatically show up as an actual link.
+
+This way you can implement the use of actual urls which enables opening a link with ctrl+click or rightclick -> open in new tab for example.
 
 ## Issues, suggestions and feature requests
-[link to GitHub issues]
-
-## Development and contribution
-
-1. Install NPM package dependencies by using: `npm install`. If you use NPM v7.x.x, which can be checked by executing `npm -v`, execute: `npm install --legacy-peer-deps`.
-1. Run `npm start` to watch for code changes. On every change:
-    - the widget will be bundled;
-    - the bundle will be included in a `dist` folder in the root directory of the project;
-    - the bundle will be included in the `deployment` and `widgets` folder of the Mendix test project.
-
-[specify contribution]
+https://github.com/hunterkoppenclevr/link-container/issues
